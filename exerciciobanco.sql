@@ -28,3 +28,6 @@ CREATE TABLE ItemPedido (
     NumPedido INTEGER FOREIGN KEY REFERENCES Pedido(NumPedido),
     CodProd INTEGER FOREIGN KEY REFERENCES Produto(CodProd) 
 );
+
+INSERT INTO Pedido (NumPedido,)
+INSERT INTO ItemPedido VALUES (01,02,02,2,)
