@@ -1,0 +1,3 @@
+select programadores.nome, empresas.nome from programadores inner join empresas on empresas.id_empresas = programadores.id_empresas;
+
+select programadores.nome, empresas.nome from programadores , empresas where empresas.id_empresas = programadores.id_empresas;

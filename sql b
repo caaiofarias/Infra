@@ -1,0 +1,1 @@
+select programadores.nome,linguagens.nome from programadores inner join programadores_linguagens on programadores_linguagens.id_programadores = programadores.id_programador and programadores_linguagens.id_linguagens = linguagens.id_linguagens
